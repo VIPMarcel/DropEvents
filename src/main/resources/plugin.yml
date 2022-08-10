@@ -1,0 +1,16 @@
+name: DropEvent
+version: '${project.version}'
+main: vip.marcel.dropevent.DropEvent
+api-version: 1.19
+authors: [ VIPMarcel ]
+description: Create Events for the server players
+
+permissions:
+  dropevent.command.use:
+    description: use the '/dropevent' command
+    default: OP
+
+commands:
+  dropevent:
+    description: start/edit/stop the dropevent
+    permission: dropevent.command.use
