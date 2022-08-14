@@ -32,8 +32,6 @@ public final class DropEvent extends JavaPlugin {
     private JsonConfigManager jsonConfigManager;
     private LocationManager locationManager;
 
-    // Other Events: ReaktionsEvent, ChatQuiz-Event, Items suchen, Location suchen, ...
-
     @Override
     public void onEnable() {
         this.init();
